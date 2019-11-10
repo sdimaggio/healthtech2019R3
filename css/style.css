@@ -617,3 +617,7 @@ textarea#message{
   height: 100px;
   width: 140px;
 }
+
+h3.slogan {
+  color: green;
+}
