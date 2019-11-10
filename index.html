@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>One Page Bootstrap Template</title>
+  <title>Your R3 Profile</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -103,9 +103,9 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 wow fadeInRight">
-          <img src="images/1.png" class="img-responsive" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni autem minus sint, commodi.</p>
+        <div class="col-sm-6 wow fadeInRight profile_pic">
+          <img src="images/mary_sue.jpg" class="img-responsive" />
+          <p>You are far stronger than you know</p>
 
         </div>
         <!--/.col-sm-6-->
@@ -126,13 +126,80 @@
                 <div id="collapseOne1" class="panel-collapse collapse in">
                   <div class="panel-body">
                     <div class="media accordion-inner">
-                      <div class="pull-left">
-                        <img class="img-responsive" src="images/accordion1.png">
+                      <div class="pull-left med_cal">
+                        <img class="img-responsive" src="images/calendar.jpeg">
                       </div>
                       <div class="media-body">
-                        <h4>Adipisicing elit</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                          ut labore</p>
+                        <h4>Weekly Overview:</h4>
+                        <ul>
+                          <li>Monday: <span id="mon_sch"></span></li>
+                          <li>Tuesay: <span id="tues_sch"></span></li>
+                          <li>Wednesday: <span id="wed_sch"></span></li>
+                          <li>Thursday: <span id="thur_sch"></span></li>
+                          <li>Friday: <span id="fri_sch"></span></li>
+                          <li>Saturday: <span id="sat_sch"></span></li>
+                          <li>Sunday: <span id="sun_sch"></span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">
+                        Upcoming Appointments
+                        <i class="fa fa-angle-right pull-right"></i>
+                      </a>
+                    </h3>
+                  </div>
+                  <div id="collapseFive1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="media accordion-inner">
+                        <div class="pull-left med_cal">
+                          <img class="img-responsive" src="images/stethoscope.jpeg">
+                        </div>
+                        <div class="media-body">
+                          <h4>Your Appointments</h4>
+                          <ul>
+                            <li>Dr. Iglasias, Robert Wood Johnson University Hospital, 1 Robert Wood Johnson Pl, New Brunswick, NJ 08901, Nov 15th 2019, 3:45pm </li>
+                            <li>Dr. Rabinowitz, Robert Wood Johnson University Hospital, 1 Robert Wood Johnson Pl, New Brunswick, NJ 08901, Nov 30th 2019, 1:30 pm</li>
+                            <li><span id="appointment">None</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                      Daily Transcripts
+                      <i class="fa fa-angle-right pull-right"></i>
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseTwo1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="media accordion-inner">
+                      <div class="pull-left med_cal">
+                        <img class="img-responsive" src="images/writing.jpeg">
+                      </div>
+                      <div class="media-body">
+                        <h4>Your Past Week</h4>
+                        <ul>
+                          <li>Monday: <span id="mon_tr"></span></li>
+                          <li>Tuesay: <span id="tues_tr"></span></li>
+                          <li>Wednesday: <span id="wed_tr"></span></li>
+                          <li>Thursday: <span id="thur_tr"></span></li>
+                          <li>Friday: <span id="fri_tr"></span></li>
+                          <li>Saturday: <span id="sat_tr"></span></li>
+                          <li>Sunday: <span id="sun_tr"></span></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -142,37 +209,29 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
-                      Lorem ipsum dolor sit amet
-                      <i class="fa fa-angle-right pull-right"></i>
-                    </a>
-                  </h3>
-                </div>
-                <div id="collapseTwo1" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                      laborum eiusmod. Brunch 3 wolf moon tempor.<br> Lorem ipsum dolor sit amet, consectetur
-                      adipisicing elit, sed do eiusmod tempor incididunt ut non cupidatat skateboard dolor brunch.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
-                      Lorem ipsum dolor sit amet
+                      Your Info for Others to See
                       <i class="fa fa-angle-right pull-right"></i>
                     </a>
                   </h3>
                 </div>
                 <div id="collapseThree1" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                      laborum eiusmod. Brunch 3 wolf moon tempor.<br> Lorem ipsum dolor sit amet, consectetur
-                      adipisicing elit, sed do eiusmod tempor incididunt ut non cupidatat skateboard dolor brunch.</p>
+                    <div class="media accordion-inner">
+                      <div class="pull-left med_cal">
+                        <img class="img-responsive" src="images/social.jpeg">
+                      </div>
+                      <div class="media-body">
+                        <h4>These characteristics help us find survivors with similar backgrounds to you!</h4>
+                        <ul>
+                          <li>Age: 37</li>
+                          <li>Sex: Female</li>
+                          <li>Survivor of: Stage 3 Melanoma</li>
+                          <li>Interests: Hiking, The Beach, Harry Potter</li>
+                          <li>Other Info: Mother of 2, Middle School Teacher, Yankees Fan</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -181,20 +240,33 @@
                 <div class="panel-heading">
                   <h3 class="panel-title">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                      Lorem ipsum dolor sit amet
+                      Your Personal Medical Info
                       <i class="fa fa-angle-right pull-right"></i>
                     </a>
                   </h3>
                 </div>
                 <div id="collapseFour1" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                      laborum eiusmod. Brunch 3 wolf moon tempor.<br> Lorem ipsum dolor sit amet, consectetur
-                      adipisicing elit, sed do eiusmod tempor incididunt ut non cupidatat skateboard dolor brunch.</p>
+                    <div class="media accordion-inner">
+                      <div class="pull-left med_cal">
+                        <img class="img-responsive" src="images/monitor.jpeg">
+                      </div>
+                      <div class="media-body">
+                        <h4>This info can only be seen by you, your doctor, and any companies that you grant data access to</h4>
+                        <ul>
+                          <li>Oncologist: Dr. Susan Ott</li>
+                          <li>Primary Care: Dr. Patrick Joyce</li>
+                          <li>Treatment Received: Targeted radiation therapy</li>
+                          <li>Medications: Sertaline, Zyrtec, Albuderol</li>
+                          <li>Lifestyle Summary: Weekly yoga, avoid fish, avoid fatty foods, try to use more natural products</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+
+              
             </div>
             <!--/#accordion1-->
           </div>
@@ -475,6 +547,95 @@
     </div>
   </footer>
   <!--/#footer-->
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-database.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAMLSqyo_Mg_95VqRm4RowbMQuFWo9Yqi8",
+      authDomain: "r3-solutions.firebaseapp.com",
+      databaseURL: "https://r3-solutions.firebaseio.com",
+      projectId: "r3-solutions",
+      storageBucket: "r3-solutions.appspot.com",
+      messagingSenderId: "640915736884",
+      appId: "1:640915736884:web:a2b48d59c586efcfcf3d61",
+      measurementId: "G-QQXTQ06Y1W"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+
+    // Get a reference to the database service
+    var database = firebase.database();
+    
+    // References to firebase values
+    var mon = firebase.database().ref().child("Monday Med");
+    var tues = firebase.database().ref().child("Tuesday Med");
+    var trans = firebase.database().ref().child("Transcript");
+    var app = firebase.database().ref().child("Appointments");
+    
+    // Variables for the med schedule
+    var localMon = document.getElementById('mon_sch');
+    var localTues = document.getElementById('tues_sch');
+    var localWed = document.getElementById('wed_sch');
+    var localThur = document.getElementById('thur_sch');
+    var localFri = document.getElementById('fri_sch');
+    var localSat = document.getElementById('sat_sch');
+    var localSun = document.getElementById('sun_sch');
+
+    // Variables for the transcript recording
+    var localTrans = document.getElementById('sun_tr');
+
+    // Appointment scheduling
+    var localApp = document.getElementById('appointment');
+
+    //When new data is received from firebase update the local variables
+    mon.on('value', function(snapshot) 
+    {
+      localMon.innerText = snapshot.val();
+      localWed.innerText = snapshot.val();
+      localFri.innerText = snapshot.val();
+      // console.log(localMon);
+    });
+    tues.on('value', function(snapshot) 
+    {
+      localTues.innerText = snapshot.val();
+      localThur.innerText = snapshot.val();
+      localSat.innerText = snapshot.val();
+      // console.log(localTues);
+    });
+
+    trans.on('value', function(snapshot) 
+    {
+      localTrans.innerText = snapshot.val();
+      // console.log(localTues);
+    });
+
+    app.on('value', function(snapshot) 
+    {
+      localApp.innerText = snapshot.val();
+      // console.log(localTues);
+    });
+  </script>
+
+  <script>
+    // // Get a reference to the database service
+    // var database = firebase.database();
+
+    // var mon = firebase.database().ref().child("Data");
+    // console.log(mon);
+  
+  </script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery.js"></script>
